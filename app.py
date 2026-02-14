@@ -112,4 +112,4 @@ def main(page: ft.Page):
 
 # Novo padrão para iniciar a aplicação no Flet 0.80+ sem gerar avisos
 porta = int(os.environ.get("PORT", 8000))
-ft.app(main, view=ft.WEB_BROWSER, host="0.0.0.0", port=porta)
+ft.app(main, view=ft.AppView.WEB_BROWSER, host="0.0.0.0", port=porta)
